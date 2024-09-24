@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+ .d1{
+    height: 100%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+} 
+ .navbar{
+    height: 10%;
+    width: 100%;
+    background-color:brown;
+    margin-bottom: 20px;
+
+
+}
+
+/* a:hover{
+    border-radius: 50px;
+    background-color: rgb(247, 6, 46);
+    color: black;
+} */
+
+
+.aboutbody{
+
+    height: 80%;
+    width: 100%;
+    padding: 30px;
+    /* background-color:pink; */
+}
+.my-card{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+.body{
+    height: 50%;
+    width: 100%;
+    padding: 200px;
+    background-color: rgb(243, 205, 108);
+    background-image: url(images\ \(1\).jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+h1{
+    /* text-align: center; */
+    color: rgb(85, 13, 13);
+}
+
+.my-gallary{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footer{
+    height: 10%;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: brown;
+    text-align: center;
+
+} 
+
+@media (width < 600px){
+
+    .my-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .my-gallary{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .body{
+        display: none;
+    }
+
+}
